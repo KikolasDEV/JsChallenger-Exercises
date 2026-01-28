@@ -3,6 +3,14 @@
 Repositorio de ejercicios **curados** de JavaScript basados en JS Challenger.  
 Objetivo: dominar JavaScript de forma práctica y demostrable, con soluciones limpias, explicaciones breves y estructura por temas.
 
+## 🧭 Roadmap relacionado
+Este repositorio forma parte de un roadmap mayor orientado a empleabilidad:
+
+- **Frontend (principal):** HTML/CSS + JavaScript → TypeScript → React (proyecto estrella a partir de abril).
+- **UI/maquetación:** retos de BigDevSoon + TailwindCSS (repositorio independiente).
+- **Backend (secundario):** Java → Spring Boot (API seria más adelante).
+- **C++ (hábito):** progreso continuo con Stroustrup, sin interferir con los pilares principales.
+
 ## 🎯 Objetivos
 - Consolidar fundamentos y conceptos intermedios/avanzados de JavaScript.
 - Practicar resolución de problemas sin depender de tutoriales.
