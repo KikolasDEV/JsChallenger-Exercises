@@ -1,8 +1,6 @@
 /*
     Time to comment
-
     In this challenge, the variable x is reassigned to a new value, but we want to prevent this change.
-
     To do this, you can use a comment to "disable" the line of code that reassigns x. Comments can be used to stop specific code from running without deleting it.
 
     Your task:

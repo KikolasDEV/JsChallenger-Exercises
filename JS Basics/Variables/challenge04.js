@@ -5,7 +5,6 @@
     let numOne = 5;
     let numTwo;
     console.log(numTwo);
-
 */
 
 let numOne = 5;
