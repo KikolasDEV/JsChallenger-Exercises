@@ -30,9 +30,8 @@ function multiply() {
 function getValue(callback) {
    setTimeout(function() {
       a = 5;
-      
+      callback()
    }, 500);
 }
-multiply();
 
 getValue(multiply);
