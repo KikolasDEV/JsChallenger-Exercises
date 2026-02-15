@@ -1,27 +1,26 @@
 /*
-    Get nth character of string
-    Write a function that takes a string (a) and a number (n) as argument. 
-    Return the nth character of 'a'.
-
-    function myFunction(a, n) {
-       return 
-    }
-    
-    console.log(myFunction('abcd',1))
-    // expected: 'a' 
-    console.log(myFunction('zyxbwpl',5))
-    // expected: 'w' 
-    console.log(myFunction('gfedcba',3))
-    // expected: 'e' 
+   Get last n characters of string
+   Write a function that takes a string as argument. Extract the last 3 characters from the string. Return the result
+   
+   function myFunction(str) {
+      return str.reduce(str => str.length - 3);
+   }
+   
+   console.log(myFunction('abcdefg'))
+   // expected: 'efg' 
+   console.log(myFunction('1234'))
+   // expected: '234' 
+   console.log(myFunction('fgedcba'))
+   // expected: 'cba' 
 */
 
-function myFunction(a, n) {
-   return a[n - 1];
+function myFunction(str) {
+   return str.slice(-3);
 }
  
-console.log(myFunction('abcd',1))
-// expected: 'a' 
-console.log(myFunction('zyxbwpl',5))
-// expected: 'w' 
-console.log(myFunction('gfedcba',3))
-// expected: 'e' 
+console.log(myFunction('abcdefg'))
+// expected: 'efg' 
+console.log(myFunction('1234'))
+// expected: '234' 
+console.log(myFunction('fgedcba'))
+// expected: 'cba' 

@@ -1,27 +1,26 @@
 /*
-    Get nth character of string
-    Write a function that takes a string (a) and a number (n) as argument. 
-    Return the nth character of 'a'.
+   Remove first n characters of string
+   Write a function that takes a string (a) as argument. Remove the first 3 characters of a. Return the result
+   
+   function myFunction(a) {
+      return 
+   }
 
-    function myFunction(a, n) {
-       return 
-    }
-    
-    console.log(myFunction('abcd',1))
-    // expected: 'a' 
-    console.log(myFunction('zyxbwpl',5))
-    // expected: 'w' 
-    console.log(myFunction('gfedcba',3))
-    // expected: 'e' 
+   console.log(myFunction('abcdefg'))
+   // expected: 'defg' 
+   console.log(myFunction('1234'))
+   // expected: '4' 
+   console.log(myFunction('fgedcba'))
+   // expected: 'dcba' 
 */
 
-function myFunction(a, n) {
-   return a[n - 1];
+function myFunction(a) {
+   return a.slice(3)
 }
- 
-console.log(myFunction('abcd',1))
-// expected: 'a' 
-console.log(myFunction('zyxbwpl',5))
-// expected: 'w' 
-console.log(myFunction('gfedcba',3))
-// expected: 'e' 
+
+console.log(myFunction('abcdefg'))
+// expected: 'defg' 
+console.log(myFunction('1234'))
+// expected: '4' 
+console.log(myFunction('fgedcba'))
+// expected: 'dcba' 
