@@ -17,7 +17,7 @@
 */
 
 function myFunction(a) {
-   return 
+   return { key: a };
 }
  
 console.log(myFunction('a'))

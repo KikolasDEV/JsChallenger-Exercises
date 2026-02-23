@@ -17,7 +17,7 @@
 */
 
 function myFunction(a, b) {
-   return 
+   return a.reduce((acc, cur, i) => ({ ...acc, [cur]: b[i] }), {});
 }
  
 console.log(myFunction(['a','b','c'],[1,2,3]))

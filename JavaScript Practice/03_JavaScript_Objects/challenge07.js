@@ -17,7 +17,7 @@
 */
 
 function myFunction(a, b) {
-   return 
+   return { [a]: b };
 }
  
 console.log(myFunction('a', 'b'))
