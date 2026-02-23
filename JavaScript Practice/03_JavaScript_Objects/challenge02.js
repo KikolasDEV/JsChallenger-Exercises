@@ -15,7 +15,7 @@
 */
 
 function myFunction(obj) {
-   return 
+   return obj['prop-2'];
 }
  
 console.log(myFunction({ one: 1, 'prop-2': 2 }))

@@ -14,7 +14,7 @@
 */
 
 function myFunction(obj, key) {
-   return 
+   return obj[key];
 }
  
 console.log(myFunction({ continent: 'Asia', country: 'Japan' }, 'continent'))
