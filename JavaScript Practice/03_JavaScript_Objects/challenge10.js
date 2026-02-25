@@ -18,7 +18,7 @@
 */
 
 function myFunction(obj) {
-   return 
+   return obj?.a?.b;
 }
  
 console.log(myFunction({a:1}))
