@@ -15,7 +15,8 @@
 */
 
 function myFunction(obj) {
-	
+	const { b, ...rest } = obj;
+    return rest;
 }
  
 console.log(myFunction({ a: 1, b: 7, c: 3 }))
