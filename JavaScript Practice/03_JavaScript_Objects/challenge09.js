@@ -15,7 +15,7 @@
 */
 
 function myFunction(a) {
-   return 
+   return Object.keys(a);
 }
  
 console.log(myFunction({a:1,b:2,c:3}))
