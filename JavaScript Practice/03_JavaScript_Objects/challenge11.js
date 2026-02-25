@@ -15,7 +15,7 @@
 */
 
 function myFunction(a) {
-   return 
+   return Object.values(a).reduce((sum, cur) => sum + cur, 0); 
 }
  
 console.log(myFunction({a:1,b:2,c:3}))
