@@ -16,7 +16,8 @@
 */
 
 function myFunction(a, b) {
-	return a.union(b);
+	return new Set([...a, ...b]);
+    // return a.union(b);
 }
  
 console.log(myFunction(new Set('123'), new Set('234')))

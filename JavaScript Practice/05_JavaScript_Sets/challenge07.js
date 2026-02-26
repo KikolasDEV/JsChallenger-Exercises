@@ -16,7 +16,8 @@
 */
 
 function myFunction(a, b) {
-	a.intersection(b);
+	new Set([...a].filter(x => b.has(x)));
+    // return a.intersection(b);
 }
  
 console.log(myFunction(new Set([1, 2, 3]), new Set([4, 5, 6])));
