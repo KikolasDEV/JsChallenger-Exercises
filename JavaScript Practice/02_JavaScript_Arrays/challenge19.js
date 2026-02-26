@@ -18,7 +18,7 @@
 
 function myFunction(min, max) {
 	const newArray = []
-	for (i = min; i <= max; i++) {
+	for (let i = min; i <= max; i++) {
 		newArray.push(i);
 	}
 	return newArray;
