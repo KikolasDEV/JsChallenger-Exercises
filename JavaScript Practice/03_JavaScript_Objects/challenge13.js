@@ -16,7 +16,8 @@
 */
 
 function myFunction(x, y) {
-	
+	const { b, ...restY } = y;
+    return { ...x, ...restY, d: b };
 }
  
 console.log(myFunction({ a: 1, b: 2 }, { c: 3, b: 4, e: 5 }))

@@ -16,7 +16,12 @@
 */
 
 function myFunction(obj) {
-	
+  return Object.fromEntries(
+    Object.entries(obj).map(([key, value]) => [
+      key,
+      typeof value === 'string' && value.trim() === '' ? null : value
+    ])
+  );
 }
  
 console.log(myFunction({ a: 'a', b: 'b', c: '' }))

@@ -20,7 +20,15 @@
 */
 
 function myFunction(obj) {
-	
+    const res = {
+        fn: obj.fn,
+        ln: obj.ln
+    };
+
+    if ('size' in obj) res.size = `${String(obj.size)}cm`;
+    if ('weight' in obj) res.weight = `${String(obj.weight)}kg`;
+
+    return res;
 }
  
 console.log(myFunction({fn: 'Lisa', ln: 'Müller', age: 17, size: 175, weight: 67}))

@@ -15,7 +15,7 @@
 */
 
 function myFunction(arr, str) {
-	return 
+	return arr.map(obj => ({ ...obj, continent: str }));
 }
  
 console.log(myFunction([{ city: 'Tokyo', country: 'Japan' }, { city: 'Bangkok', country: 'Thailand' }], 'Asia'))

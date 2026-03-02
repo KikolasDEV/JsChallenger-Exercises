@@ -17,7 +17,10 @@
 */
 
 function myFunction(a) {
-	
+  return a.reduce((acc, num) => {
+    acc[num] = (acc[num] ?? 0) + 1;
+    return acc;
+  }, {});
 }
  
 console.log(myFunction([1,2,2,3]))

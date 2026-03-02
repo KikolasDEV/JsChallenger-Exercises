@@ -17,7 +17,9 @@
 */
 
 function myFunction(obj) {
-	
+	return Object.fromEntries(
+        Object.entries(obj).map(([key, value]) => [value, key])
+    );
 }
  
 console.log(myFunction({z:'a',y:'b',x:'c',w:'d'}))
