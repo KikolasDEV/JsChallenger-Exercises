@@ -17,7 +17,8 @@
 */
 
 function myFunction(arr, num) {
-	
+	num < 6 ? arr.unshift(0) : arr.unshift(num);
+    return arr;
 }
  
 console.log(myFunction([1,2,3], 6))
