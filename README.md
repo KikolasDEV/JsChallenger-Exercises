@@ -1,61 +1,53 @@
 # JsChallenger-Exercises
 
-Repositorio de ejercicios **curados** de JavaScript basados en JS Challenger.  
-Objetivo: dominar JavaScript de forma práctica y demostrable, con soluciones limpias, explicaciones breves y estructura por temas.
+Repositorio de ejercicios de JavaScript basados en **JS Challenger**, organizado por módulos y documentado por bloques (READMEs).  
+Objetivo: consolidar JavaScript con evidencia auditable (código + estructura + documentación), y usarlo como base para el salto a **TypeScript + React**.
 
 ## 🧭 Roadmap relacionado
 Este repositorio forma parte de un roadmap mayor orientado a empleabilidad:
 
-- **Frontend (principal):** HTML/CSS + JavaScript → TypeScript → React (proyecto estrella a partir de abril).
-- **UI/maquetación:** retos de BigDevSoon + TailwindCSS (repositorio independiente).
-- **Backend (secundario):** Java → Spring Boot (API seria más adelante).
-- **C++ (hábito):** progreso continuo con Stroustrup, sin interferir con los pilares principales.
+- **Frontend (principal):** HTML/CSS + JavaScript → TypeScript → React.
+- **UI/maquetación:** retos de BigDevSoon + TailwindCSS (repo independiente).
+- **Backend (más adelante):** Java → Spring Boot (fase posterior).
 
 ## 🎯 Objetivos
-- Consolidar fundamentos y conceptos intermedios/avanzados de JavaScript.
-- Practicar resolución de problemas sin depender de tutoriales.
-- Generar evidencia pública y auditable del progreso (código + explicación + commits).
+- Reforzar fundamentos y nivel intermedio de JavaScript con práctica consistente.
+- Dominar patrones reales: arrays/objetos, scope, funciones modernas, asincronía y DOM.
+- Mantener un estándar de trabajo: estructura clara, commits frecuentes y documentación por módulo.
 
 ## 🔗 Recurso principal
 - JS Challenger: https://jschallenger.com/dashboard/
 
 ## ✅ Qué demuestra este repositorio
-- Capacidad de resolver ejercicios de lógica y manipulación de datos.
-- Dominio de arrays/objetos/funciones y patrones habituales de JavaScript.
-- Uso de conceptos avanzados (cuando se alcance esa fase): async/await, promesas, closures, scope, etc.
-- Enfoque de trabajo profesional: organización, consistencia y documentación.
+- Soltura real en JavaScript (básico → intermedio → DOM).
+- Capacidad de resolver problemas de datos con métodos estándar (`map`, `filter`, `reduce`, `Object.*`, `Date`, `Set`).
+- Comprensión de conceptos clave: scope, callbacks/promises y orden de ejecución.
+- Enfoque profesional: organización, consistencia y READMEs que resumen lo trabajado.
 
 ## 🗂️ Estructura
-> La estructura puede evolucionar según avance el roadmap, pero siempre se mantendrá organizada por temas.
+Cada carpeta representa un módulo con su README general y READMEs por bloque:
 
-- `01-basics/`  
-  Variables, tipos, operadores, condicionales, bucles.
-- `02-functions/`  
-  Declaración, parámetros, retorno, callbacks, funciones flecha.
-- `03-arrays/`  
-  Métodos, transformaciones (`map`, `filter`, `reduce`), inmutabilidad.
-- `04-objects/`  
-  Acceso, iteración, destructuring, patrones comunes.
-- `05-strings/`  
-  Manipulación, búsqueda, formateo.
-- `06-async/`  
-  Promesas, async/await, manejo de errores.
-- `07-advanced/`  
-  Scope, closures, `this`, prototipos (si aplica).
+- [`JS Basics`](./JS%20Basics/README.md)
+- [`Intermediate JavaScript`](./Intermediate%20JavaScript/README.md)
+- [`DOM Exercises`](./DOM%20Exercises/README.md)
+- [`JavaScript Practice`](./JavaScript%20Practice/README.md)
+
+> Nota: en **DOM Exercises** se conserva principalmente el JavaScript (sin HTML/CSS del playground), porque el foco aquí es la lógica y el uso del DOM.
 
 ## 📌 Convenciones
-- Cada ejercicio incluirá:
-  - Solución clara y legible.
-  - Breve explicación (2–6 líneas) de la idea o el enfoque.
-  - Si aplica: edge cases relevantes.
+- Cada bloque tiene un `README.md` con:
+  - Qué se trabajó
+  - Ideas clave
+- Regla interna: si está “hecho” pero no se entiende, no cuenta.
 
 ## ▶️ Cómo ejecutar
-La mayoría de ejercicios son simples y pueden ejecutarse con Node.js.
+### Ejercicios de DOM
+Este repositorio guarda el **JavaScript** del ejercicio. Para probarlo:
+  - Ejecútalo dentro del playground de JS Challenger, o
+  - Recrea un HTML mínimo localmente y enlaza el script
 
-1. Instala Node.js (LTS).
-2. Clona el repositorio:
-   ```bash
-   git clone https://github.com/KikolasDEV/JsChallenger-Exercises.git
-3. Ejecuta el archivo
-   ```bash
-   node ruta/al/ejercicio.js
+### Ejercicios de lógica (Basics / Intermediate / Practice)
+Requisitos: Node.js (LTS)
+
+```bash
+node ruta/al/archivo.js
